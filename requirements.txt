@@ -1,0 +1,12 @@
+# Requirements for protein-design-lib/src scripts
+#   crop_target.py      -> biopython
+#   inspect_hotspots.py -> biopython, numpy
+#
+# Install with:
+#   pip install -r requirements.txt
+#
+# Version floors reflect well-tested releases on Python >=3.8; pin tighter
+# if you need reproducibility across machines.
+ 
+biopython>=1.80
+numpy>=1.21

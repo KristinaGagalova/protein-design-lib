@@ -1,0 +1,17 @@
+# Conda environment for protein-design-lib/src scripts.
+#
+# Create with:
+#   conda env create -f environment.yml
+#   conda activate protein-design-lib
+#
+# Covers:
+#   crop_target.py      -> biopython
+#   inspect_hotspots.py -> biopython, numpy
+name: protein-design-lib
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - python>=3.8
+  - biopython>=1.80
+  - numpy>=1.21
